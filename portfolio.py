@@ -129,7 +129,7 @@ with col1:
             <p class="project-link"><a href="https://github.com/iampraffulbisht/Rep_counter" target="_blank">GitHub</a></p>
         </div>
     """, unsafe_allow_html=True)
-    st.image("images/project1.png")
+    st.image("images/project2.png")
 
 # Project 2: Face Recognition System
 with col2:
