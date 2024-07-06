@@ -19,13 +19,6 @@ st.markdown("""<style>
             height: 650px;
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
         }
-        .project-image {
-            width: 50%; /* Adjust image width as needed */
-            border-radius: 5px; /* Optional: Add border-radius to image */
-            margin-bottom: 15px;
-            margin-left: auto;
-            margin-right: auto;
-        }
         .project-link {
             margin-top: 5px;
             color: #4CAF50;
