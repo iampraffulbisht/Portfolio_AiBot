@@ -119,6 +119,7 @@ st.write(" ")
 st.title("Projects")
 col1,col2,col3,col4=st.columns(4,gap="medium")
 with col1:
+        
     st.markdown("""
         <div class="project-container">
             <h3 class="project-title">Dumbbell Curl Counter</h3>
