@@ -12,7 +12,7 @@ st.markdown("""<style>
             padding: 20px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             transition: transform 0.2s ease;
-            height: 600px; /* Fixed height */
+            height: 650px; /* Fixed height */
             display: flex;
             flex-direction: column;
             justify-content: space-between;
