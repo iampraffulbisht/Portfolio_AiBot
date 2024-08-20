@@ -172,7 +172,7 @@ with col3:
 with col4:
     st.markdown("""
         <div class="project-container">
-            <h3 class="project-title">Virtual-PaintBrush</h3>
+            <h3 class="project-title">Virtual Paint Brush</h3>
             <p class="project-description">A virtual painter that lets users draw on a digital canvas using hand gestures detected by a webcam.</p>
             <p class="project-tech">Technologies used: Python, OpenCV, TensorFlow</p>
             <p class="project-link"><a href="https://github.com/iampraffulbisht/Hand-Volume-control?tab=readme-ov-file#hand-gesture-volume-control" target="_blank">GitHub</a></p>
