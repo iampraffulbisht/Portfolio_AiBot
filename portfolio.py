@@ -7,17 +7,30 @@ model = genai.GenerativeModel('gemini-1.5-flash')
 
 st.markdown("""<style>
         .project-container {
-            background-color: #191919;
-            color: white;
-            padding: 10px;
-            border-radius: 10px;
-            margin-bottom: 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            height: 650px;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            background-color: #2a2a2a;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s ease;
+            height: 100%;
+        }
+        .project-container:hover {
+            transform: translateY(-10px);
+        }
+        .project-title {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #ffffff;
+        }
+        .project-description {
+            font-size: 1em;
+            color: #d3d3d3;
+            margin-bottom: 15px;
+        }
+        .project-tech {
+            font-size: 0.9em;
+            color: #c0c0c0;
+            margin-bottom: 15px;
         }
         .project-image {
             width: 50%; /* Adjust image width as needed */
@@ -26,10 +39,14 @@ st.markdown("""<style>
             margin-left: auto;
             margin-right: auto;
         }
-        .project-link {
-            margin-top: 5px;
-            color: #4CAF50;
-            }
+        .project-link a {
+            font-size: 1em;
+            color: #1E90FF;
+            text-decoration: none;
+        }
+        .project-link a:hover {
+            text-decoration: underline;
+        }
         .skill-container {
             background-color: #191919;
             color: white;
