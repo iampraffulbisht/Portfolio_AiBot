@@ -141,7 +141,7 @@ with col2:
             <p class="project-tech">Technologies used: Python, OpenCV, TensorFlow</p>
             <p class="project-link"><a href="https://github.com/iampraffulbisht/Hand-Volume-control?tab=readme-ov-file#hand-gesture-volume-control" target="_blank">GitHub</a></p>
         </div>
-    """, unsafe_allow_html=True)
+    """, unsafe_allow_html=False)
 with col3:
     st.markdown("""
         <div class="project-container">
@@ -151,7 +151,7 @@ with col3:
             <p class="project-tech">Technologies used: Python, OpenCV, TensorFlow</p>
             <p class="project-link"><a href="https://github.com/iampraffulbisht/Hand-Volume-control?tab=readme-ov-file#hand-gesture-volume-control" target="_blank">GitHub</a></p>
         </div>
-    """, unsafe_allow_html=True)
+    """, unsafe_allow_html=False)
 with col4:
     st.markdown("""
         <div class="project-container">
@@ -161,7 +161,7 @@ with col4:
             <p class="project-tech">Technologies used: Python, OpenCV, TensorFlow</p>
             <p class="project-link"><a href="https://github.com/iampraffulbisht/Hand-Volume-control?tab=readme-ov-file#hand-gesture-volume-control" target="_blank">GitHub</a></p>
         </div>
-    """, unsafe_allow_html=True)
+    """, unsafe_allow_html=False)
 
 
 st.write(" ")
