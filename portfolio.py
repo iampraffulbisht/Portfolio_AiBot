@@ -160,7 +160,7 @@ with col3:
     st.markdown("""
         <div class="project-container">
             <h3 class="project-title">Bollywood Celebrity Face Detection</h3>
-            <p class="project-description">Recognizes Bollywood celebrities in images or videos using computer vision algorithms to match faces from a curated database.</p>
+            <p class="project-description">Recognizes celebrities in images or videos using computer vision algorithms to match faces from a curated database.</p>
             <p class="project-tech">Technologies used: Python, OpenCV, TensorFlow</p>
             <p class="project-link"><a href="https://github.com/iampraffulbisht/Hand-Volume-control?tab=readme-ov-file#hand-gesture-volume-control" target="_blank">GitHub</a></p>
         </div>
