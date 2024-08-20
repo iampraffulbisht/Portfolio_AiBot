@@ -149,7 +149,7 @@ with col2:
     st.markdown("""
         <div class="project-container">
             <h3 class="project-title">Hand Gesture Volume Control</h3>
-            <p class="project-description">Control system volume using hand gestures captured through a webcam, with real-time adjustments using computer vision techniques.</p>
+            <p class="project-description">Control system volume using hand gestures via a webcam, with real-time adjustments using computer vision.</p>
             <p class="project-tech">Technologies used: Python, OpenCV, TensorFlow</p>
             <p class="project-link"><a href="https://github.com/iampraffulbisht/Hand-Volume-control?tab=readme-ov-file#hand-gesture-volume-control" target="_blank">GitHub</a></p>
         </div>
