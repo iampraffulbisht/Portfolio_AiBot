@@ -137,7 +137,7 @@ col1,col2,col3,col4=st.columns(4,gap="medium")
 with col1:
     st.markdown("""
         <div class="project-container">
-            <h3 class="project-title">Dumbbell Curl Counter</h3>
+            <h3 class="project-title">AI Dumbbell Curl Counter</h3>
             <p class="project-description">This application uses computer vision to detect hand movements and counts repetitions of dumbbell curls in real-time.</p>
             <p class="project-tech">Technologies used: Python, OpenCV, Flask</p>
             <p class="project-link"><a href="https://github.com/iampraffulbisht/Rep_counter" target="_blank">GitHub</a></p>
@@ -170,7 +170,7 @@ with col3:
 with col4:
     st.markdown("""
         <div class="project-container">
-            <h3 class="project-title">Virtual Paint Brush</h3>
+            <h3 class="project-title">AI Virtual Paint Brush</h3>
             <p class="project-description">A virtual painter that lets users draw on a digital canvas through hand gestures detected by a webcam in real-time.</p>
             <p class="project-tech">Technologies used: Python, OpenCV, TensorFlow</p>
             <p class="project-link"><a href="https://github.com/iampraffulbisht/Hand-Volume-control?tab=readme-ov-file#hand-gesture-volume-control" target="_blank">GitHub</a></p>
