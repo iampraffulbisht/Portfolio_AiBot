@@ -29,6 +29,7 @@ st.markdown("""<style>
         .project-link {
             margin-top: 5px;
             color: #4CAF50;
+            }
         .skill-container {
             background-color: #191919;
             color: white;
