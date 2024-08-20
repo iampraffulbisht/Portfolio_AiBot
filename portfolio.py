@@ -138,7 +138,7 @@ with col1:
     st.markdown("""
         <div class="project-container">
             <h3 class="project-title">Dumbbell Curl Counter</h3>
-            <p class="project-description">Using computer vision for hand detection, this application counts repetitions of dumbbell curls.</p>
+            <p class="project-description">This application uses computer vision to detect hand movements and counts repetitions of dumbbell curls in real-time.</p>
             <p class="project-tech">Technologies used: Python, OpenCV, Flask</p>
             <p class="project-link"><a href="https://github.com/iampraffulbisht/Rep_counter" target="_blank">GitHub</a></p>
         </div>
@@ -149,7 +149,7 @@ with col2:
     st.markdown("""
         <div class="project-container">
             <h3 class="project-title">Hand Gesture Volume Control</h3>
-            <p class="project-description">This project allows you to control the system volume using hand gestures captured through a webcam.</p>
+            <p class="project-description">Control system volume using hand gestures captured through a webcam, with real-time adjustments using computer vision techniques.</p>
             <p class="project-tech">Technologies used: Python, OpenCV, TensorFlow</p>
             <p class="project-link"><a href="https://github.com/iampraffulbisht/Hand-Volume-control?tab=readme-ov-file#hand-gesture-volume-control" target="_blank">GitHub</a></p>
         </div>
@@ -160,7 +160,7 @@ with col3:
     st.markdown("""
         <div class="project-container">
             <h3 class="project-title">Bollywood Celebrity Face Recognition</h3>
-            <p class="project-description">Recognizes Bollywood celebrities in images and videos, providing real-time matches from a curated database of faces.</p>
+            <p class="project-description">Recognizes Bollywood celebrities in images or videos, providing matches from a curated face database using computer vision algorithms.</p>
             <p class="project-tech">Technologies used: Python, OpenCV, TensorFlow</p>
             <p class="project-link"><a href="https://github.com/iampraffulbisht/Hand-Volume-control?tab=readme-ov-file#hand-gesture-volume-control" target="_blank">GitHub</a></p>
         </div>
@@ -171,7 +171,7 @@ with col4:
     st.markdown("""
         <div class="project-container">
             <h3 class="project-title">Virtual Paint Brush</h3>
-            <p class="project-description">A virtual painter that lets users draw on a digital canvas using hand gestures detected by a webcam.</p>
+            <p class="project-description">A virtual painter that lets users draw on a digital canvas through hand gestures detected by a webcam in real-time.</p>
             <p class="project-tech">Technologies used: Python, OpenCV, TensorFlow</p>
             <p class="project-link"><a href="https://github.com/iampraffulbisht/Hand-Volume-control?tab=readme-ov-file#hand-gesture-volume-control" target="_blank">GitHub</a></p>
         </div>
