@@ -12,7 +12,10 @@ st.markdown("""<style>
             padding: 20px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             transition: transform 0.2s ease;
-            height: 100%;
+            height: 300px; /* Fixed height */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
         }
         .project-container:hover {
             transform: translateY(-10px);
@@ -25,19 +28,12 @@ st.markdown("""<style>
         .project-description {
             font-size: 1em;
             color: #d3d3d3;
-            margin-bottom: 15px;
+            flex-grow: 1; /* Ensures the description takes up available space */
         }
         .project-tech {
             font-size: 0.9em;
             color: #c0c0c0;
-            margin-bottom: 15px;
-        }
-        .project-image {
-            width: 50%; /* Adjust image width as needed */
-            border-radius: 5px; /* Optional: Add border-radius to image */
-            margin-bottom: 15px;
-            margin-left: auto;
-            margin-right: auto;
+            margin-top: 15px;
         }
         .project-link a {
             font-size: 1em;
