@@ -16,7 +16,7 @@ st.markdown("""<style>
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            margin-bottom: 20px;
+
         }
         .project-container:hover {
             transform: translateY(-10px);
@@ -26,13 +26,10 @@ st.markdown("""<style>
             font-size: 1.5em;
             margin-bottom: 10px;
             color: #ffffff;
-            font-weight: bold;
         }
         .project-description {
             font-size: 1em;
             color: #d3d3d3;
-            text-align: justify; 
-            margin-bottom: 10px;
             flex-grow: 1; /* Ensures the description takes up available space */
         }
         .project-tech {
