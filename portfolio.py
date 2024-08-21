@@ -1,4 +1,4 @@
-
+from PIL import Image
 import streamlit as st
 import google.generativeai as genai
 api_key = st.secrets["GOOGLE_API_KEY"]
