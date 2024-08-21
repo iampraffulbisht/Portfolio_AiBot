@@ -187,7 +187,7 @@ st.slider("Computer Vision",0,100,85)
 st.slider("Machine Learning",0,100,89)
 st.slider("Web Development",0,100,80)
 st.slider("Photography",0,100,95)
-st.write("My Resume")
+st.title("My Resume")
 resume_file = "Prafful's_Resume.pdf"
 
 # Open the PDF file
