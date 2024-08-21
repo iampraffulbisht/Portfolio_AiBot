@@ -186,7 +186,23 @@ st.slider("Computer Vision",0,100,85)
 st.slider("Machine Learning",0,100,89)
 st.slider("Web Development",0,100,80)
 st.slider("Photography",0,100,95)
-st.write("")
+st.write("My Resume")
+resume_file = "Prafful's_Resume.pdf"
+
+# Open the PDF file
+resume_image = Image.open("resume.png")
+st.image(resume_image, caption="Preview of My Resume", use_column_width=True)
+
+# Provide the download button for the PDF
+col1, col2, col3 = st.columns([1, 1, 1])
+with open(resume_file, "rb") as file:
+    with col2:
+        st.download_button(
+            label="📄 Download My Resume",
+            data=file,
+            file_name="Prafful_Bisht_Resume.pdf",
+            mime="application/pdf"
+        )
 st.title("Gallery")
 st.subheader(" Photography Skills")
 num_photos = 9  # Total number of photos
