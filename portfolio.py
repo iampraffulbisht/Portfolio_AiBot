@@ -89,7 +89,7 @@ st.title(" ")
 with col1:
     st.subheader("About")
     st.write("I am Prafful Bisht, a fourth-year undergraduate student pursuing Computer Science and Engineering with a specialization in Artificial Intelligence and Machine Learning at SRM University. With a strong academic foundation reflected in a CGPA of 9.5, I am dedicated to mastering cutting-edge technologies that drive innovation.")
-    st.subheader("Academic Background")
+    st.subheader("Background")
     st.write("Originally hailing from Dehradun, Uttrakhand, and currently studying at SRM University, I discovered my passion for engineering early on. Guided by a natural affinity for software engineering, I embarked on a journey to explore diverse facets of technology.")
     st.subheader("Professional Journey")
     st.write("My journey in software development has been diverse, focusing extensively on computer vision and machine learning. I have developed expertise in these areas through hands-on projects in face detection and recognition, hand detection, and applications like the Dumbbell Curl Counter using computer vision algorithms.")
