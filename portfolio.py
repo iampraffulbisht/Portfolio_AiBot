@@ -38,13 +38,24 @@ st.markdown("""<style>
             color: #c0c0c0;
             margin-top: 15px;
         }
-        .project-link a {
-            font-size: 1em;
-            color: #1E90FF;
+        .project-link {
+            display: inline-block;
+            background-color: #24292e;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
             text-decoration: none;
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+            transition: background-color 0.3s;
+            text-align: center;
         }
-        .project-link a:hover {
-            text-decoration: underline;
+        .project-link:hover {
+            background-color: #444c56;
+        }
+        .fa-github {
+            margin-right: 8px;
+            vertical-align: middle;
         }
         .skill-container {
             background-color: #191919;
@@ -142,7 +153,9 @@ with col1:
             <h3 class="project-title">AI Dumbbell Curl Counter</h3>
             <p class="project-description">This application uses computer vision to detect hand movements and counts repetitions of dumbbell curls in real-time.</p>
             <p class="project-tech">Technologies used: Python, OpenCV, Flask</p>
-            <p class="project-link"><a href="https://github.com/iampraffulbisht/Rep_counter" target="_blank">GitHub</a></p>
+            <a class="project-link" href="https://github.com/iampraffulbisht/Rep_counter" target="_blank">
+            <i class="fa-brands fa-github"></i> GitHub
+        </a>
         </div>
     """, unsafe_allow_html=True)
 
@@ -153,7 +166,9 @@ with col2:
             <h3 class="project-title">Hand Gesture Volume Control</h3>
             <p class="project-description">Control system volume using hand gestures via a webcam, with real-time adjustments using computer vision.</p>
             <p class="project-tech">Technologies used: Python, OpenCV, TensorFlow</p>
-            <p class="project-link"><a href="https://github.com/iampraffulbisht/Hand-Volume-control?tab=readme-ov-file#hand-gesture-volume-control" target="_blank">GitHub</a></p>
+            <a class="project-link" href="https://github.com/iampraffulbisht/Hand-Volume-control?tab=readme-ov-file#hand-gesture-volume-control" target="_blank">
+            <i class="fa-brands fa-github"></i> GitHub
+        </a>
         </div>
     """, unsafe_allow_html=True)
 
@@ -164,7 +179,9 @@ with col3:
             <h3 class="project-title">Bollywood Celebrity Face Detection</h3>
             <p class="project-description">Recognizes celebrities in images or videos using computer vision algorithms to match faces from a curated database.</p>
             <p class="project-tech">Technologies used: Python, OpenCV, TensorFlow</p>
-            <p class="project-link"><a href="https://github.com/iampraffulbisht/Hand-Volume-control?tab=readme-ov-file#hand-gesture-volume-control" target="_blank">GitHub</a></p>
+            <a class="project-link" href="https://github.com/iampraffulbisht/Bollywood_Face_Recognition" target="_blank">
+            <i class="fa-brands fa-github"></i> GitHub
+        </a>
         </div>
     """, unsafe_allow_html=True)
 
@@ -175,7 +192,9 @@ with col4:
             <h3 class="project-title">AI Virtual Paint Brush</h3>
             <p class="project-description">A virtual painter that lets users draw on a digital canvas through hand gestures detected by a webcam in real-time.</p>
             <p class="project-tech">Technologies used: Python, OpenCV, TensorFlow</p>
-            <p class="project-link"><a href="https://github.com/iampraffulbisht/Hand-Volume-control?tab=readme-ov-file#hand-gesture-volume-control" target="_blank">GitHub</a></p>
+            <a class="project-link" href="https://github.com/iampraffulbisht/Virtual-PaintBrush" target="_blank">
+            <i class="fa-brands fa-github"></i> GitHub
+        </a>
         </div>
     """, unsafe_allow_html=True)
 
@@ -235,13 +254,111 @@ st.markdown("<p style='text-align: center;'>Phone: +91 8219144427</p>", unsafe_a
 
 # Social Media Links
 st.subheader("Connect on Social Media")
-col1,col2,col3 = st.columns(3,gap="large")
+col1, col2, col3 = st.columns(3, gap="large")
+
 with col1:
-    st.write("[LinkedIn](https://www.linkedin.com/in/prafful-bisht-4761b923b/)")
+    # Custom CSS for the LinkedIn button
+    st.markdown("""
+        <style>
+        .linkedin-button {
+            display: inline-block;
+            background-color: #24292e;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+            transition: background-color 0.3s;
+            text-align: center;
+        }
+        .linkedin-button:hover {
+            background-color: #084a91;
+        }
+        .fa-linkedin {
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+        </style>
+    """, unsafe_allow_html=True)
+
+    # LinkedIn button with Font Awesome icon
+    st.markdown('''
+        <a class="linkedin-button" href="https://www.linkedin.com/in/prafful-bisht-4761b923b/" target="_blank">
+            <i class="fa-brands fa-linkedin"></i> LinkedIn
+        </a>
+    ''', unsafe_allow_html=True)
+
 with col2:
-    st.write("[X](https://x.com/prafullbisht)")
+    # Custom CSS for the X (Twitter) button
+    st.markdown("""
+        <style>
+        .x-button {
+            display: inline-block;
+            background-color: #24292e;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+            transition: background-color 0.3s;
+            text-align: center;
+        }
+        .x-button:hover {
+            background-color: #444c56;
+        }
+        .fa-twitter {
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+        </style>
+    """, unsafe_allow_html=True)
+
+    # X button with Font Awesome icon
+    st.markdown('''
+        <a class="x-button" href="https://x.com/prafullbisht" target="_blank">
+            <i class="fa-brands fa-x-twitter"></i> Twitter
+        </a>
+    ''', unsafe_allow_html=True)
+
 with col3:
-    st.write("[GitHub](https://github.com/iampraffulbisht)")
+    # Custom CSS for the GitHub button
+    st.markdown("""
+        <style>
+        .github-button {
+            display: inline-block;
+            background-color: #24292e;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+            transition: background-color 0.3s;
+            text-align: center;
+        }
+        .github-button:hover {
+            background-color: #444c56;
+        }
+        .fa-github {
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+        </style>
+    """, unsafe_allow_html=True)
+
+    # GitHub button with Font Awesome icon
+    st.markdown('''
+        <a class="github-button" href="https://github.com/iampraffulbisht" target="_blank">
+            <i class="fa-brands fa-github"></i> GitHub
+        </a>
+    ''', unsafe_allow_html=True)
+
+# Add the Font Awesome script to load icons globally
+st.markdown("""
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+""", unsafe_allow_html=True)
 st.markdown("---")
 
 st.markdown("<p style='text-align: center;'>© 2024 Prafful Bisht. All rights reserved.</p>", unsafe_allow_html=True)
