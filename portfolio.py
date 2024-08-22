@@ -45,6 +45,7 @@ st.markdown("""<style>
             padding: 10px 20px;
             border-radius: 5px;
             text-decoration: none;
+            text-color:#ffffff;
             font-weight: bold;
             font-family: Arial, sans-serif;
             transition: background-color 0.3s;
