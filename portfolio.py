@@ -51,7 +51,7 @@ st.markdown("""<style>
             text-align: center;
         }
         .project-link:hover {
-            background-color: #444c56;
+            background-color: #084a91;
         }
         .fa-github {
             margin-right: 8px;
