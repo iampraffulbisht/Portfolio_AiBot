@@ -306,7 +306,7 @@ with col2:
             text-align: center;
         }
         .x-button:hover {
-            background-color: #444c56;
+            background-color: #084a91;
         }
         .fa-twitter {
             margin-right: 8px;
@@ -339,7 +339,7 @@ with col3:
             text-align: center;
         }
         .github-button:hover {
-            background-color: #444c56;
+            background-color: #084a91;
         }
         .fa-github {
             margin-right: 8px;
