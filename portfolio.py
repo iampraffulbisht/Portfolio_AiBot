@@ -41,7 +41,7 @@ st.markdown("""<style>
         .project-link {
             display: inline-block;
             background-color: #2a2a2a;
-            color: white;
+            color: white !important;
             padding: 10px 20px;
             border-radius: 5px;
             text-decoration: none;
