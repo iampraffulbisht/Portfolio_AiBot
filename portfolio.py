@@ -208,10 +208,10 @@ st.slider("Machine Learning",0,100,89)
 st.slider("Web Development",0,100,80)
 st.slider("Photography",0,100,95)
 st.title("My Resume")
-resume_file = "Prafful's_Resume.pdf"
+resume_file = "Prafful_s_Resume.pdf"
 
 # Open the PDF file
-resume_image = Image.open("resume.png")
+resume_image = Image.open("Resume.png")
 st.image(resume_image, caption="Preview of My Resume", use_column_width=True)
 
 # Provide the download button for the PDF
